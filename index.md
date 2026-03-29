@@ -2,12 +2,12 @@
 
 [![签到状态](https://github.com/gs202308/189pan/actions/workflows/main.yml/badge.svg)](https://github.com/gs202308/189pan/actions/workflows/main.yml) [![项目主页](https://img.shields.io/badge/GitHub-项目主页-blue?logo=github)](https://github.com/gs202308/189pan)
 
-**最后更新:** 2026-03-28 18:50:56 CST
+**最后更新:** 2026-03-29 12:10:43 CST
 
 ## 快速导航
 
 - 🔄 [查看Action运行记录](https://github.com/gs202308/189pan/actions)
-- 📋 [查看最新运行](https://github.com/gs202308/189pan/actions/runs/23683635876)
+- 📋 [查看最新运行](https://github.com/gs202308/189pan/actions/runs/23701104809)
 - 🏠 [返回项目主页](https://github.com/gs202308/189pan)
 - ⚙️ [手动触发签到](https://github.com/gs202308/189pan/actions/workflows/main.yml)
 
@@ -16,22 +16,18 @@
 # 天翼云盘自动签到抽奖程序
 
 ## 执行概览
-- **启动时间**: 2026-03-28 18:50:56
+- **启动时间**: 2026-03-29 12:10:44
 - **账户数量**: 1 个
 
 ## 账户1
-第1次抽奖出错: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+登录过程出错: HTTPSConnectionPool(host='open.e.189.cn', port=443): Max retries exceeded with url: /api/logbox/oauth2/autoLogin.do?appId=cloud&version=v1.1&clientType=20010&format=redirect&paras=484D02453516E8FC6ACACE06CE1B77730F24DF4C0946FE51ED4306C73D067B00060F873672F8598D6509F7C89261F121843C29B5BF5651CD29806905CE54D4A521EB4E4CAC6D54619A09534DE185071BE59A1B900D1674E6DE368AC904EFDEEA16E431D19EF1AFB28CF72B565318EDCF7F162F3E86D153EA9015FC17D5359BBDF8712F800C22729088E2ED5D14CE02BEB3FDC2E06BAF396536854ED62D94E1A966083D654A0E8CFFA0A268C2AD260BCE2C5DA03D9152C74066A2D59CC3B29DA0F29BCBF32C49777C3F66DCF589B89D620370EEFF4EBBB2753515AD6C486872B9E9DFCFD11E692BC35A4D5CEB41F5B912A4B8A548E955B079FAC0457BCAE7685F8E4258EFBB34C498F5E673BEA7BEBDC693BB722EC475AD4CB2C0526B514B925D157007CF884910F833BD92384FC1910DB4D245EBEF008DA028F6EFCAD0A6CE0C5EEE2AB174126296A86959C0969ABE1D5CA91733C1673C443A74AA4EC307B49F038406F925E0CA29E38DABBC4A5ECA4EFD51D194052FEC9E3B376F528DD11996CC4C2E2674095D1574E3F50293B65795E0C3380BD52256D55CBF4B32C2AD5FF2FD99A753F66C23EE23BC1FCF9B6AE253CFC1A92E76FABFBB600CEAE3037001B3BA7D101A4EACDAB7EB58CEBCA0570CBF129C8359600041AC92A7300419A16A1A5F4FC6298EFFD48AF1D4DE970ACCA7C142774C876BA5701F507378EA90A4C91B5CA1F78D000F0659D427DC23A961D052E377EDB9520DAE53&sign=4C50DCB26C388C30553D4515DEFA6EAD09E72A31 (Caused by NewConnectionError("HTTPSConnection(host='open.e.189.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
 ### 执行结果
-- **登录状态**: 登录成功
-- **签到结果**: 已签到，获得31M空间
-- **抽奖结果**:
-  - ❌ 第1次: 抽奖出错: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-  - ❌ 第2次: 抽奖失败，次数不足
-  - ❌ 第3次: 抽奖失败，次数不足
+- **登录状态**: 登录失败
+- **签到结果**: 
 
 ---
 ## 执行统计
-- **结束时间**: 2026-03-28 18:51:14
-- **运行时长**: 17.60 秒
+- **结束时间**: 2026-03-29 12:15:17
+- **运行时长**: 272.79 秒
 
 ✅ **所有账户处理完成！**
